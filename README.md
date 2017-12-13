@@ -29,6 +29,8 @@ L'objectif principal sera de construire un logiciel qui vous permettra d'appliqu
    1. Ouvrez un terminal et entrez : cmake-gui
    
       ![alt text](https://raw.githubusercontent.com/danyfel80/TPOpenCV/master/img/screenshot5.png)
+      
+      Note: Si cmake-gui n'est pas installé, créez un dossier `build` à l'intérieur du dossier `TPOpenCV` et dans ce dossier adaptez et lancez la commande `cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_ECLIPSE_GENERATE_SOURCE_PROJECT=TRUE ../src`. Maintenant vous pouvez continuer à la section 3.
    
    2. Précisez le répertoire où se trouve le code source (~/git/TPOpenCV/src).
    
